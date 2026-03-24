@@ -13,33 +13,33 @@ public class PracticeProblem {
 
 	public static String isFive(int num) {
 		if (num==5) {
-			return "The number is Five"		
+			return "The number is Five";	
 		} else {
-			return "The number is not Five"
+			return "The number is not Five";
 		}
 	}
 
 	public static String positiveOrNegative(double num) {
 		if (num>0) {
-			return "Positive"		
+			return "Positive";		
 		} else {
-			return "Negative"
+			return "Negative";
 		}
 	}
 
 	public static String highOrLow(int num) {
 		if (num>100) {
-			return "High"		
+			return "High";	
 		} else {
-			return "Low"
+			return "Low";
 		}
 	}
 
 	public static String isHello(String str) {
 		if (str.equals("Hello")) {
-			return "The word is Hello"
+			return "The word is Hello";
 		} else {
-			return "The word is not Hello"
+			return "The word is not Hello";
 		}
 	}
 
